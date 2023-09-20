@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+    height: 100vh;
+    background-size: cover;
+}
+div{
+    width:50%;
+    height: 30px;
+    background-color: white;
+}
+p{
+    color: black;
+}
+.contain{
+    height: 40vh;
+    width: 40vw;
+    overflow: hidden;
+    transition:0.8s;
+    background-size: cover;
+    perspective: 1000px;
+}
+.flex{
+    display: none;
+}
+.contain1{
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+    background-image: url("https://www.bwallpaperhd.com/wp-content/uploads/2021/01/NashPoint.jpg");
+}
